@@ -1,0 +1,11 @@
+★  PLACE xgboost_model.pkl AND scaler.pkl IN THIS FOLDER  ★
+
+After placing them the folder should look like:
+
+  backend/models/
+  ├── xgboost_model.pkl   ← your trained model
+  ├── scaler.pkl          ← your trained scaler
+  └── PLACE_YOUR_FILES_HERE.txt (this file)
+
+Then restart backend — you will see:
+  ✅  xgboost_model.pkl + scaler.pkl  loaded!

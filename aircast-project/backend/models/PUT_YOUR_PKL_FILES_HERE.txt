@@ -1,0 +1,11 @@
+★ PASTE THESE 2 FILES INTO THIS FOLDER:
+
+  xgboost_model.pkl   ← downloaded from Google Colab
+  scaler.pkl          ← downloaded from Google Colab
+
+After pasting both files here, restart the backend server.
+The server will auto-detect and load them.
+
+Verify it worked:
+  Open http://localhost:8000/health
+  You should see:  "model_loaded": true
